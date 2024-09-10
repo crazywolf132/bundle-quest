@@ -1,0 +1,29 @@
+{
+  "name": "bundleQuest",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "next": "tsx ./scripts/cli.ts next",
+    "start": "tsx ./scripts/cli.ts start",
+    "previous": "tsx ./scripts/cli.ts previous",
+    "refresh": "tsx ./scripts/cli.ts refresh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.2.0",
+    "axios": "^1.7.3",
+    "commander": "^12.1.0",
+    "jest": "^29.7.0",
+    "metro": "^0.80.10",
+    "metro-runtime": "^0.80.10",
+    "tsup": "^8.2.4",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
+  }
+}
